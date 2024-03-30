@@ -1,3 +1,8 @@
 home:
    path: /home
    controller: App\Controller\HomeController::index
+
+
+restaurant:
+    path: /restaurant
+    controller: App\Controller\RestaurantController::index
