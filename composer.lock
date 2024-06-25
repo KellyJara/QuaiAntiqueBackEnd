@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4abdf2a1a34563c4f3319a4a291ac1c",
+    "content-hash": "5f52994e5492e9eaa9b73dab9685d6bf",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -1336,16 +1336,16 @@
         },
         {
             "name": "nelmio/api-doc-bundle",
-            "version": "v4.26.1",
+            "version": "v4.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/NelmioApiDocBundle.git",
-                "reference": "2af8c5d55d48c488ef1a650b9ef7133e3c583623"
+                "reference": "684391a5fab4bdfac752560d3483d0f7109448a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/2af8c5d55d48c488ef1a650b9ef7133e3c583623",
-                "reference": "2af8c5d55d48c488ef1a650b9ef7133e3c583623",
+                "url": "https://api.github.com/repos/nelmio/NelmioApiDocBundle/zipball/684391a5fab4bdfac752560d3483d0f7109448a5",
+                "reference": "684391a5fab4bdfac752560d3483d0f7109448a5",
                 "shasum": ""
             },
             "require": {
@@ -1356,16 +1356,16 @@
                 "psr/cache": "^1.0 || ^2.0 || ^3.0",
                 "psr/container": "^1.0 || ^2.0",
                 "psr/log": "^1.0 || ^2.0 || ^3.0",
-                "symfony/config": "^5.4 || ^6.0 || ^7.0",
-                "symfony/console": "^5.4 || ^6.0 || ^7.0",
-                "symfony/dependency-injection": "^5.4 || ^6.0 || ^7.0",
+                "symfony/config": "^5.4 || ^6.4 || ^7.0",
+                "symfony/console": "^5.4 || ^6.4 || ^7.0",
+                "symfony/dependency-injection": "^5.4 || ^6.4 || ^7.0",
                 "symfony/deprecation-contracts": "^2.1 || ^3",
-                "symfony/framework-bundle": "^5.4.24 || ^6.0 || ^7.0",
-                "symfony/http-foundation": "^5.4 || ^6.0 || ^7.0",
-                "symfony/http-kernel": "^5.4 || ^6.0 || ^7.0",
-                "symfony/options-resolver": "^5.4 || ^6.0 || ^7.0",
-                "symfony/property-info": "^5.4.10 || ^6.0 || ^7.0",
-                "symfony/routing": "^5.4 || ^6.0 || ^7.0",
+                "symfony/framework-bundle": "^5.4.24 || ^6.4 || ^7.0",
+                "symfony/http-foundation": "^5.4 || ^6.4 || ^7.0",
+                "symfony/http-kernel": "^5.4 || ^6.4 || ^7.0",
+                "symfony/options-resolver": "^5.4 || ^6.4 || ^7.0",
+                "symfony/property-info": "^5.4.10 || ^6.4 || ^7.0",
+                "symfony/routing": "^5.4 || ^6.4 || ^7.0",
                 "zircote/swagger-php": "^4.6.1"
             },
             "conflict": {
@@ -1384,20 +1384,21 @@
                 "phpstan/phpstan-strict-rules": "^1.5",
                 "phpstan/phpstan-symfony": "^1.3",
                 "phpunit/phpunit": "^9.6 || ^10.5",
-                "symfony/asset": "^5.4 || ^6.0 || ^7.0",
-                "symfony/browser-kit": "^5.4 || ^6.0 || ^7.0",
-                "symfony/cache": "^5.4 || ^6.0 || ^7.0",
-                "symfony/dom-crawler": "^5.4 || ^6.0 || ^7.0",
-                "symfony/expression-language": "^5.4 || ^6.0 || ^7.0",
-                "symfony/form": "^5.4 || ^6.0 || ^7.0",
+                "symfony/asset": "^5.4 || ^6.4 || ^7.0",
+                "symfony/browser-kit": "^5.4 || ^6.4 || ^7.0",
+                "symfony/cache": "^5.4 || ^6.4 || ^7.0",
+                "symfony/dom-crawler": "^5.4 || ^6.4 || ^7.0",
+                "symfony/expression-language": "^5.4 || ^6.4 || ^7.0",
+                "symfony/form": "^5.4 || ^6.4 || ^7.0",
                 "symfony/phpunit-bridge": "^6.4",
-                "symfony/property-access": "^5.4 || ^6.0 || ^7.0",
-                "symfony/security-csrf": "^5.4 || ^6.0 || ^7.0",
-                "symfony/serializer": "^5.4 || ^6.0 || ^7.0",
-                "symfony/stopwatch": "^5.4 || ^6.0 || ^7.0",
-                "symfony/templating": "^5.4 || ^6.0 || ^7.0",
-                "symfony/twig-bundle": "^5.4 || ^6.0 || ^7.0",
-                "symfony/validator": "^5.4 || ^6.0 || ^7.0",
+                "symfony/property-access": "^5.4 || ^6.4 || ^7.0",
+                "symfony/security-csrf": "^5.4 || ^6.4 || ^7.0",
+                "symfony/serializer": "^5.4 || ^6.4 || ^7.0",
+                "symfony/stopwatch": "^5.4 || ^6.4 || ^7.0",
+                "symfony/templating": "^5.4 || ^6.4 || ^7.0",
+                "symfony/twig-bundle": "^5.4 || ^6.4 || ^7.0",
+                "symfony/uid": "^5.4 || ^6.4 || ^7.0",
+                "symfony/validator": "^5.4 || ^6.4 || ^7.0",
                 "willdurand/hateoas-bundle": "^1.0 || ^2.0"
             },
             "suggest": {
@@ -1445,9 +1446,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nelmio/NelmioApiDocBundle/issues",
-                "source": "https://github.com/nelmio/NelmioApiDocBundle/tree/v4.26.1"
+                "source": "https://github.com/nelmio/NelmioApiDocBundle/tree/v4.28.0"
             },
-            "time": "2024-04-20T11:19:38+00:00"
+            "time": "2024-06-19T14:37:45+00:00"
         },
         {
             "name": "nelmio/cors-bundle",
