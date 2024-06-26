@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Entity\Restaurant;
+use Nelmio\ApiDocBundle\Annotation as Nelmio;
 use DateTimeImmutable ;
 use App\Repository\RestaurantRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
