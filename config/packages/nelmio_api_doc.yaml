@@ -1,14 +1,27 @@
 nelmio_api_doc:
     documentation:
+        servers:
+          - url: http://api.example.com/unsafe
+            description: API over HTTP
+          - url: https://api.example.com/secured
+            description: API over HTTPS
+        areas:
+        default:
+            path_patterns:
+                - ^/api(?!/doc$) 
         info:
             title: My App
             description: This is an awesome app!
             version: 1.0.0
-    areas: # to filter documented areas
-        default:
-          path_patterns:
-            - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
-
+            x-build: #CommitHash
+        components:
+            securitySchemes:
+                Bearer:
+                    type: http
+                    scheme: bearer
+                    bearerFormat: JWT
+        security:
+            - Bearer: []
   
           
    
